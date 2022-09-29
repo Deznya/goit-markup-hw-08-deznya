@@ -1,21 +1,32 @@
 @import './utils/variables';
-@import './utils/visually-hidden';
-@import './utils/mixins';
-@import './utils/placeholders';
+@import './utils/container';
+@import './utils/utils';
+@import './utils/mixin';
 
-@import './base/common.scss';
-@import './base/section';
-@import './base/container';
-@import './components/header';
-@import './layout/hero';
-@import './layout/section-benefits';
-@import './layout/section-total';
-@import './components/title-work';
-@import './layout/section-team';
-@import './components/link-social-network';
-@import './layout/section-icom-company.scss';
-@import './components/footer';
+@import './menu/logo';
+@import './menu/navigation';
+@import './menu/contacts';
+@import './menu/mobile-container';
+@import './menu/mobile';
+@import './menu/mobile-stayl';
+
 @import './components/button';
-@import './layout/modal';
-@import './components/current-studio-portfolio';
-@import './layout/portfolio';
+
+@import './sections/hero';
+@import './components/overlay';
+@import './components/backdrop';
+@import './components/modal';
+@import './components/modal-window';
+
+@import './sections/feature-list';
+@import './sections/section-sidebar';
+@import './sections/team';
+@import './sections/socials';
+@import './sections/regular-customers';
+@import './footer/footer-container';
+@import './footer/footer-logo';
+@import './footer/footer-socials';
+@import './footer/footer-email';
+
+@import './components/button-portfolio';
+@import './sections/portfolio';
